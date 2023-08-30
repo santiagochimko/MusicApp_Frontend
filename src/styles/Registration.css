@@ -1,0 +1,216 @@
+#main-registration {
+    position: absolute;
+    background: none;
+    z-index: 2;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    z-index: 1;
+}
+
+.heading h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+#main-registration h1 {
+    width: 320px;
+    color: #26262E;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.arrow_back {
+    border: none;
+    width: 10px;
+}
+
+label {
+    align-self: stretch;
+    color: #26262E;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    z-index: 1;
+}
+
+input {
+    display: flex;
+    width: 90%;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 0px 16px;
+    border: 2px solid #E4E6E8;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1;
+}
+
+input:focus {
+    border: 2px solid #FF8E0A;
+    outline: none;
+}
+
+.pswlabel {
+    color: #26262E;
+}
+
+.password-input-container {
+    display: flex;
+    width: 90%;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 0px 16px;
+    border: 2px solid #E4E6E8;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.password-input-container input {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#check {
+    display: flex;
+    color: #26262E;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    align-items: center;
+    margin-top: 17px;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
+
+#pswlabel {
+    margin-top: 46px;
+}
+
+.password-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.password-toggle img {
+    width: 20px;
+    height: 20px;
+}
+
+.msj_alert {
+    align-self: stretch;
+    color: #838486;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 19px;
+}
+
+.checkboxstyle {
+    border-radius: 0px 16px;
+    border: 2px solid #E4E6E8;
+}
+
+#terms_conditions {
+    display: flex;
+    color: #26262E;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    z-index: 1;
+}
+
+span {
+    color: #FF8E0A;
+    margin: 0 5px;
+}
+
+.btn_placer {
+    width: 100%;
+}
+
+.btn_continue {
+    position: absolute;
+    bottom: 10%;
+    width: 90%;
+    padding: 12px 16px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0px 16px;
+    background: #E4E6E8;
+    cursor: pointer;
+    z-index: 2;
+    color: white;
+}
+
+.valid-email {
+    background: #FF8E0A;
+}
+
+.valid-user-pass {
+    background-color: #FF8E0A;
+}
+
+.invalid-password {
+    border: 2px solid #EA0F0F;
+}
+
+.invalid-password-text {
+    color: #EA0F0F;
+    visibility: visible;
+}
+
+.top-gradient {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    opacity: 0.25;
+    background: linear-gradient(360deg, rgba(253, 254, 255, 0.00) 25%, rgba(255, 142, 10, 0.53) 75%, rgba(255, 142, 10, 0.90) 100%);
+    z-index: 0;
+}
+
+.btm-gradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 338px;
+    background: linear-gradient(180deg, rgba(253, 254, 255, 0.00) 0%, #FDFEFF 45.83%, #FDFEFF 100%);
+    z-index: 0;
+}

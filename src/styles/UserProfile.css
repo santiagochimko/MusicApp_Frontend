@@ -1,0 +1,146 @@
+.user-top-gradient {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    opacity: 0.25;
+    background: linear-gradient(360deg, rgba(253, 254, 255, 0.00) 25%, rgba(102, 149, 175, 0.53) 75%, rgba(102, 149, 175, 0.90) 100%);
+    z-index: 0;
+}
+
+#profile-header {
+    display: flex;
+    gap: 0;    
+    padding: 10% 0;
+}
+
+#profile-header h1 {
+    color: #26262E;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+#profile-header h2 {
+    color: #26262E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+}
+
+.profile-container {
+    display: flex;
+    margin-left: 48px;
+}
+
+.profile-container img {
+    margin-bottom: 16px;
+}
+
+header button {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: none;
+    align-items: baseline;
+}
+
+.dividerContainer h2 {
+    color: #26262E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.divider {
+    width: 87px;
+    height: 2px;
+}
+
+.dividerContainer button {
+    width: 100px;
+    border-radius: 0px 8px;
+    background: #FF8E0A;
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: #FDFEFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    border: none;
+}
+#playlistContainer{
+    height: auto;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding-bottom: 80px;
+}
+
+.playlistCard {
+    width: 152px;
+    margin-top: 23px;
+}
+
+.playlistCard .sssinger {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 152px;
+}
+.sssinger{
+    height: 224px;
+    width: 224px;
+    border-radius: 0px 50px;
+    z-index: 1;
+    overflow: hidden;
+    gap: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sssinger2 {
+    height: 76px;
+    width: 76px;
+}
+
+.sssinger3 {
+    height: 76px;
+    width: 76px;
+    overflow: hidden;
+}
+
+.playlistCard h2{
+color: #26262E;
+text-align: center;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.5px;
+margin-top: 16px;
+}
+
+.playlistCard h3{
+color: #838486;
+text-align: center;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px; 
+letter-spacing: 0.5px;
+}
+
+.bottom-bar {
+    background: white;
+}

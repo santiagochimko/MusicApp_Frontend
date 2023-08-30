@@ -1,0 +1,128 @@
+#main-searcher {
+    position: absolute;
+    background: none;
+    z-index: 2;
+}
+
+.search-input-container {
+    display: flex;
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 0px 16px;
+    border: 2px solid #E4E6E8;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1;
+    flex-direction: row-reverse;
+}
+
+input#search {
+    border: none;
+}
+
+h2#searchTitle {
+    width: 100%;
+    margin-top: 48px;
+    margin-bottom: -34px;
+}
+
+#top-20 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    padding-bottom: 80px;
+    z-index: 2;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.dividerContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.dividerContainer h2 {
+    color: #26262E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.divider {
+    width: 240px;
+    height: 2px;
+    background: #E4E6E8;
+}
+
+#recent-searches .dividerContainer h2{
+width: 181px;
+}
+
+#recent-searches .divider{
+width: 123px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.songContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+
+.songCard {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.songCard img {
+    width: 152px;
+    height: 152px;
+    margin-bottom: 16px;
+}
+
+.songCard h2 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+}
+
+.songCard h3 {
+    color: #838486;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+}
+
+section#recent-searches {
+    height: 100%;
+    padding-bottom: 80px;
+    overflow: hidden;
+}

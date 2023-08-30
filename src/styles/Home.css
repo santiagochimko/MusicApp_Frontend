@@ -1,0 +1,78 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background: url(/src/assets/log-in-background.gif), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;    
+    background-position: center;
+    padding: 0 5%;
+}
+
+header {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 15%;
+    z-index: 2;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 12px;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    padding-bottom: 150px;
+    z-index: 2;
+}
+
+h1 {
+    color: #26262E;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.794px;
+}
+
+#Btn_Registration{
+    background: #FF8E0A;
+    border: none;
+    color: white;
+}
+#Btn_LogIn{
+    background-color: transparent;
+    border: none;
+}
+
+#top-gradient-home {
+    position: absolute;
+    width: 100%;
+    height: 368px;
+    opacity: .5;
+    background: linear-gradient(1deg, rgba(253, 254, 255, 0.00) 25%, rgba(255, 142, 10, 0.53) 75%, rgba(255, 142, 10, 0.90) 100%);
+    z-index: 1;
+  }
+  
+  #btm-gradient-home {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 368px;
+    opacity: .5;
+    background: linear-gradient(180deg, rgba(253, 254, 255, 0.00) 0%, #FDFEFF 45.83%, #FDFEFF 100%);
+    z-index: 1;
+  }

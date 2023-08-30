@@ -1,0 +1,144 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+ .Card {
+    position: relative;
+    background: var(--blanco, #FDFEFF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0 5%;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    padding: 30px 0 0 0;
+}
+
+.Backgr-degrade {
+    background: var( --degradado-a-blanco-con-color, linear-gradient( 0deg, rgba(253, 254, 255, 0) 25%, rgba(255, 142, 10, 0.53) 75%, rgba(255, 142, 10, 0.9) 100% ) );
+    opacity: 0.25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 10vh;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    width: 80%;
+}
+
+.top-bar h1 {
+    margin: 0 20px 0 10px;
+    height: 24px;
+
+    display: flex;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--medios-tonos-gris-5, #26262E);
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.playlists-type {
+    display: flex;
+    background: #FDFEFF;
+    color: white;
+    border: 0;
+    border-radius: 0px 16px;
+    width: 90%;
+    height: 10%;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.Home2-Buttons {
+    display: flex;
+    gap: 10px
+}
+
+.Home2-Buttons button {
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+
+.Home2-Buttons button img {
+    position: relative;
+}
+
+.imgs {
+    position: relative;
+    background-color: #26262E;
+    width: 100px;
+    height: 100%;
+}
+
+.imgs .img2 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.imgs2 {
+    position: relative;
+    background-color: #26262E;
+    width: 100px;
+    height: 100%;
+}
+
+.imgs2 .img1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.imgs2 .img2 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.playlists-info {
+    color: #26262E;
+    max-width: 70%;
+    padding: 10px;
+}
+
+.playlists-info p {
+    font-size: 14px;
+}
+
+.playlists-info h2 {
+    font-size: 18px;
+}

@@ -1,0 +1,20 @@
+
+.bottom-bar {
+    display: flex;
+    width: 425px;
+    position: fixed;
+    bottom: 0;
+    gap: 16px;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(253, 254, 255, 0.00) 25%, rgba(255, 142, 10, 0.13) 75%, rgba(255, 142, 10, 0.22) 100%);
+    z-index: 2;
+  }
+  
+  .bottom-buttons{
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      color: black;
+      border: 0;
+      border-radius: 0;
+  }
