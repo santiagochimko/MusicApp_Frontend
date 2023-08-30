@@ -15,7 +15,7 @@ const CupidList = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:3000/user/artistas", {
+        const response = await fetch("https://musicappbackend-hn0z-dev.fl0.io/user/artistas", {
           credentials: "include",
         });
         const data = await response.json();
@@ -35,7 +35,7 @@ const CupidList = () => {
         artistaID: likedArtists,
       };
 
-      const response = await fetch("http://localhost:3000/user/cupido", {
+      const response = await fetch("https://musicappbackend-hn0z-dev.fl0.io/user/cupido", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

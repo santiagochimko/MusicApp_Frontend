@@ -39,7 +39,7 @@ const RegistrationStep2 = () => {
         mail: email,
       };
   
-      fetch("http://localhost:3000/auth/register", {
+      fetch("https://musicappbackend-hn0z-dev.fl0.io/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -39,7 +39,7 @@ const Login = () => {
       var myHeaders = new Headers();
       myHeaders.append("Content-Type", "application/json");
 
-      fetch("http://localhost:3000/auth/login", {
+      fetch("https://musicappbackend-hn0z-dev.fl0.io/auth/login", {
         method: "POST",
         headers: myHeaders,
         body: JSON.stringify(userData),

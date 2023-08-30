@@ -23,7 +23,7 @@ const UserProfile = () => {
       credentials: "include",
     };
 
-    fetch("http://localhost:3000/user/perfil", requestOptions)
+    fetch("https://musicappbackend-hn0z-dev.fl0.io/user/perfil", requestOptions)
       .then((response) => response.json())
       .then((data) => {
         setProfileData(prevProfileData => ({
@@ -42,7 +42,7 @@ const UserProfile = () => {
       credentials: "include",
     };
   
-    fetch("http://localhost:3000/auth/logout", requestOptions)
+    fetch("https://musicappbackend-hn0z-dev.fl0.io/auth/logout", requestOptions)
       .then((response) => {
         if (response.ok) {
           window.location.href = "/"; 

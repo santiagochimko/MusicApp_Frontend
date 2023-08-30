@@ -31,7 +31,7 @@ const ContextualMusic = () => {
       credentials: "include",
     };
 
-    fetch("http://localhost:3000/user/filtros", requestOptions)
+    fetch("https://musicappbackend-hn0z-dev.fl0.io/user/filtros", requestOptions)
       .then((response) => response.json())
       .then((data) => {
         setOccasionOptions(data.ocasion);
@@ -64,7 +64,7 @@ const ContextualMusic = () => {
         generoID: selectedGenreOptions,
       };
 
-      const response = await fetch("http://localhost:3000/user/contextual", {
+      const response = await fetch("https://musicappbackend-hn0z-dev.fl0.io/user/contextual", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

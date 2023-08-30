@@ -65,7 +65,7 @@ const Searcher = () => {
     const fetchData = async () => {
       try {
         console.log(document.cookie)
-        const response = await fetch("http://localhost:3000/user/canciones", {credentials: 'include'});
+        const response = await fetch("https://musicappbackend-hn0z-dev.fl0.io/user/canciones", {credentials: 'include'});
         const data = await response.json();
         setSongs(data.canciones);
       } catch (error) {
